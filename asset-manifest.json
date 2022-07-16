@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/devsoc-apod/static/css/main.6e4fb086.css",
+    "main.js": "/devsoc-apod/static/js/main.5f5b5cea.js",
+    "static/js/787.18458cb6.chunk.js": "/devsoc-apod/static/js/787.18458cb6.chunk.js",
+    "index.html": "/devsoc-apod/index.html",
+    "main.6e4fb086.css.map": "/devsoc-apod/static/css/main.6e4fb086.css.map",
+    "main.5f5b5cea.js.map": "/devsoc-apod/static/js/main.5f5b5cea.js.map",
+    "787.18458cb6.chunk.js.map": "/devsoc-apod/static/js/787.18458cb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e4fb086.css",
+    "static/js/main.5f5b5cea.js"
+  ]
+}
