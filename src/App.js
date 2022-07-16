@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import BottomBar from "./BottomBar";
+import APODreq from "./request";
+import DATEForm from "./dateSelector";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className="app">
+      <center>
+      <h1>Astronomy Picture Of the Day</h1>
+      <p><a href="https://apod.nasa.gov/apod/archivepix.html">Discover the cosmos!</a> Each day a different image or
+       photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+       </center>
+      <APODreq />
+      <DATEForm /> 
+      <BottomBar />
     </div>
   );
 }
